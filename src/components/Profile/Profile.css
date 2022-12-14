@@ -1,0 +1,24 @@
+.pad-lr {padding: 0px 29px 31px;align-items: center;}
+.profile-pic img{border-radius:50%;border:solid 8px #000;width:200px;height:200px;object-fit:cover;}
+.pro-h {padding: 0px 27px;}
+.pro-h span i {font-size: 20px;padding: 14px 20px 0px 0px;transition: .5s;color: #6a6969;}
+.pro-h span i:hover {color: #ffe600;transition: .5s;}
+input.fom1 {background-color: #283046;border: solid 1px #626262;padding: 9px 11px;width: 33%;margin-bottom: 14px;color: #fff;font-size: 18px;border-radius: 6px;}
+.mar-r {margin-right: 20px;}
+
+/* user profile */
+
+.userProfileItems{display: flex;align-items: flex-start;justify-content: flex-start;list-style-type: none;flex-wrap: wrap;}
+.userProfileItems>li{width: 33%;margin: 0 0 30px 0;font-size: 14px;color: #fff;font-weight: 400 !important;}
+.userProfileItems>li>b{font-weight: 300;color: #fff;}
+.green{border: 0;border-radius: 3px;font-size: 12px;background-color: green;color: #fff;padding: 5px 5px;}
+.red{border: 0;border-radius: 3px;font-size: 12px;background-color: red;color: #fff;padding: 5px 5px;}
+.chatList{list-style-type: none;display: flex;justify-content: flex-start;align-items: center;flex-wrap: wrap;gap: 2%;}
+.chatList>li>{width: 20%;}
+.chatList>li>button{border: 0;}
+.card-header.lessArea>h4{max-width:100%;text-overflow:ellipsis;overflow:hidden;display: flex;}
+.card-header.lessArea>h4 span{width:50%;text-overflow:ellipsis;overflow:hidden;}
+.card-header.lessArea h4{margin:0;}
+.card-header.lessArea{padding:0px 10px 20px;}
+.chat-list{list-style-type: none;}
+.chat-list>li{margin: 0 0 10px 0;max-width:90%;}

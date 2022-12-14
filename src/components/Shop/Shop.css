@@ -1,0 +1,18 @@
+.thumbnail img{width: 50px;}
+.tab-act button {
+    background-color: #ededed;
+    border: solid 1px #fff;
+    padding: 4px 21px;
+    border-radius: 2px;
+    color: #000;
+    font-weight: 600;
+}
+.tab-act button:hover {
+    background-color: #000;
+    color: #fff;
+    border: solid 1px #000;    
+}
+.sizesBox>ul{display:flex;align-items:center;justify-content:space-between;list-style-type:none;padding:0;margin:0;border:1px solid #404656;padding:10px;border-radius:7px;}
+.sizesBox>ul>li{display: flex;align-items: center;}
+.sizesBox>ul>li>label{margin: 0 10px 0 0;font-size: 12px;cursor: pointer;}
+.thumbnail img{width:60px;height:60px;border-radius:100%;object-fit:cover;}

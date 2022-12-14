@@ -1,0 +1,224 @@
+/*scroll*/
+::selection{background:#247976;color:#fff;text-shadow:none;}
+::-webkit-scrollbar{width: 5px;background-color:#fff;}
+::-webkit-scrollbar-button:start:decrement,::-webkit-scrollbar-button:end:increment{display:none;}
+::-webkit-scrollbar-track-piece{-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.3);background-color:#283046;}
+.main-menu::-webkit-scrollbar-thumb:vertical{border-radius:20px;-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.3);background-image:linear-gradient(#283046,#283046);}
+.main-menu:hover::-webkit-scrollbar-thumb:vertical{border-radius:20px;-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.3);background-image:linear-gradient(#b4b7bd,#b4b7bd);}
+/* scroll */
+
+.login-log img{max-width:120px;}
+.login-wrp .app-content.content{margin-left:0;padding:0 !important;}
+.main-menu{overflow:auto !important;overflow-x:hidden !important;}
+
+/* NAVIGATION */
+.navigation-main .nav-item.has-sub>a:after{position:absolute;content:'\f061';font-family:"Font Awesome 5";font-size:12px;bottom:0;right:25px;top:14px;}
+.navigation-main .nav-item.has-sub.open>a:after{content:'\f063';}
+.main-menu .navbar-header .navbar-brand .brand-logo img{width: 100%;}
+.main-menu{overflow: hidden !important;}
+.nav-item.me-auto.daslogo{margin:auto;}
+.nav-item.me-auto.daslogo h2.brand-text{color:#fff;font-size:25px;}
+body.vertical-layout.vertical-menu-modern.mystyle .main-menu{width:auto;transform:translate3d(0,0,0);transition:all 0.9s ease;}
+.ps{overflow:hidden!important;overflow-anchor:none;-ms-overflow-style:none;touch-action:auto;-ms-touch-action:auto;}
+.ps__rail-y,.ps__rail-x{display:none;}
+ul.dropdown-menu-media.mt-0.dropdown-menu.dropdown-menu-end.show {
+    margin-top: 0 !important;
+}
+
+
+
+/* login card toast */
+#loginAPIMessage-div{text-align: center;padding: 15px 0;margin: 0 0 10px 0;border-radius: 7px;color: #fff;transition: .3s;}
+.bg-red{background-color: #cf0909;transition: .3s;}
+.bg-green{background-color: rgb(0, 145, 0);transition: .3s;}
+.login-wrp .app-content.content {
+    margin-left: 0; 
+    padding: 0 !important;
+  }
+
+/* login card toast */
+
+/* animation-table */
+.crd-wrp .row {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+}
+.eid-btn
+{
+    text-align: right;
+    padding: 0 30px 0 0;
+}
+.aniimg img {
+   
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+}
+h4.card-title {
+    font-size: 16px !important;
+    padding: 0px 0px 10px;
+    text-align: center;
+}
+.dashpic {
+    text-align: center;
+    padding: 25px 0;
+}
+.spiner {
+    text-align: center;
+    padding: 25px 0;
+}
+
+.spiner .spinner-grow {
+    margin: 0 9px;
+}
+.dark-layout .main-menu-content .navigation-main .navigation-header {
+    color: rgb(255 198 0) !important;
+}
+li.nav-item>a>span
+{
+    color: #fff !important;
+}
+li.nav-item>a>i {
+    color: rgb(255 198 0) !important;
+}
+.wel h1 {text-transform: capitalize;font-size: 50px;color: #fff !important;}
+
+.wel h1>span {color: rgb(255 198 0) !important;}
+
+.dashpic img {
+    margin-bottom: 45px;
+    width: 35%;
+}
+.dropdown-menu .dropdown-item {
+    width: 100% !important;
+}
+li.dropdown-user.nav-item.dropdown.show {
+    background: transparent;
+}
+
+img.round{width:85px;height:60px;object-fit:contain;padding:7px 0;}
+
+
+.aniimg .image-box{width: 60%;height: 60%;background-color: #283046 !important;}
+.aniimg .image-box img:last-child{width: 100%;height: 100%;}
+td.playin a#sintel>span {
+    display: none;
+}
+td.playin img {
+    width: 36px;
+}
+.table-responsive .table th, td {
+    text-align: center;
+    font-size: 12px;
+}
+.table-responsive .table th
+{
+    font-size: 10px;
+}
+ul.menu-content>li>a>i {
+    font-size: 15px !important;
+    
+}
+i.fal.fa-user-times {
+    color: #fee500 !important;
+}
+i.fal.fa-user-check {
+    color: #20df20 !important;
+}
+ul.menu-content>li>a>span {
+    font-size: 14px !important;
+}
+.table > :not(caption) > * > * {
+    padding: 15px 13px !important;
+}
+.turna-det 
+{
+    width: 15%;
+    
+}
+.dark-layout .main-menu-content .navigation-main .nav-item i {
+    color: #f4dd04;
+}
+tr:nth-child(even) {
+    background: #12182a5c;
+}
+.custom-loader{background-color: #0000008f;position: fixed;width: 100%;height: 100%;top: 0;left: 0;z-index: 10;display: none;}
+.custom-loader .spinner-border {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+.show-loader{display: block;}
+.pagination{margin-top: 15px;}
+#sintel .styles_playButton__1Q3EF{display: none;}
+
+#sintel img{width: 55px;}
+.rdt_TableCol div input{position:relative;z-index:-1;}
+/* .react-dataTable .sc-hKwDye.sc-gKclnd.grZUZw.kIfSjT.rdt_TableCell {display:none;}
+.react-dataTable .sc-hKwDye.sc-bqiRlB.hAquuJ.ksOnjL.rdt_TableCol{display:none;} */
+
+.sc-dkPtRN.hCBnvI.rdt_TableHeadRow {
+    background-color: #343d55;
+    border-color: #3b4253;
+    color: #b4b7bd;
+}
+.dark-layout .react-dataTable .rdt_TableBody .rdt_TableRow {
+    background-color: #283046;
+    border-color: #3b4253;
+    color: #b4b7bd;
+}
+.selectMain:disabled {
+    width: 100px;
+    background: #c74748;
+    height: 25px;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+}
+.selectMain {
+    width: 100px;
+    background: #28c76f;
+    height: 25px;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+}
+.dark-layout .form-check-input:not(:checked):not(:indeterminate):not(:focus) {
+    border-color: #aaaeb9 !important;
+}
+.fa-history:before {
+    color: #4978ff;
+}
+.selectdate {
+    padding: 10px 23px;
+}
+button.delet-btn.btn.btn-secondary {
+    background: transparent !important;
+    border: none;
+}
+
+button.delet-btn.btn.btn-secondary i {
+    color: red;
+    font-size: 21px;
+}
+.header-navbar .navbar-container {
+    padding: 0.2rem 1.4rem !important;
+}
+/* =====================MEDIA-SCEREEM====================== */
+
+@media (max-width: 767.98px)
+{
+    .vertical-layout.vertical-menu-modern .main-menu {
+        width: auto;
+        transform: translate3d(-260px, 0, 0);
+        transition: all 0.9s ease;
+    
+    }
+    .main-menu .navbar-header .navbar-brand
+    {
+        margin-top: 0;
+    }
+}
+
